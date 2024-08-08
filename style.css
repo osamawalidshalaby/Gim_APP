@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(61, 59, 59);
+}
+
+.container {
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container .box {
+    width: 90%;
+    max-width: 700px;
+    background-color: rgb(61, 59, 59);
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.box .input {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    background-color: #272525;
+}
+
+.box .input input {
+    padding: 16px;
+    width: 84%;
+    background-color: transparent;
+    flex: 1;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.box .input button {
+    width: 15%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+@media (max-width : 400px) {
+    .box .input button {
+        font-size: 15px;
+        font-weight: 500;
+        width: 20%;
+    }
+}
+
+.result {
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #272525;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+
+.result div {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #474444;
+    border-radius: 15px;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+}
+.result div p{
+    padding-left: 7px;
+    text-align: center;
+}
+.result div input {
+    margin-left: 15px;
+    background-color: #8b8e9d;
+    border-radius: 5px;
+    width: 30px;
+    border: none;
+    outline: none;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.clr {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.del {
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    font-size: 18px;
+    font-weight: 800;
+}
