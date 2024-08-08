@@ -28,7 +28,7 @@ btn.addEventListener("click" , function(){
 
 
 res.addEventListener("input" , function(e){
-    console.log(e.target.parentElement.parentElement.lastElementChild);
+    
     if (
       (e.target.parentElement.parentElement.lastElementChild.className = "sp")
     ) {
